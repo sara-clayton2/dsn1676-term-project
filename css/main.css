@@ -149,7 +149,7 @@ body {
 }
 
 .robot  { 
-	width: 150px; 
+	width: 210px; 
 	height: auto;
 	margin-left: 35%;
     -webkit-animation-duration: 4s; 
@@ -201,7 +201,7 @@ body {
 
 @media only screen and (min-width: 40em) { 
 	.robot { 
-		width: 150px; 
+		width: 210px; 
 		height: auto;
 		margin-left: 15%;
 	}
@@ -239,13 +239,12 @@ body {
         transform: translateY(0); 
     } 
 } 
-
-	
-	
-	
 } 
 
-
+figcaption { 
+	text-align: center;
+	color: #fff;
+}
 
 
 
