@@ -11,8 +11,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
-  font-family: 'Oswald', sans-serif;
-  background-color: #E0635B;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 body { 
@@ -64,6 +63,11 @@ body {
 
 .skip-links a:focus {
   top: 0;
+}
+
+header { 
+	background-color: #EF4046;
+	
 }
 
 .title {
@@ -245,7 +249,6 @@ figcaption {
 	text-align: center;
 	color: #fff;
 }
-
 
 
 	
