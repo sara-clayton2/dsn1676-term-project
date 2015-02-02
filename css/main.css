@@ -155,7 +155,7 @@ header {
 .robot  { 
 	width: 210px; 
 	height: auto;
-	margin-left: 35%;
+	margin-left: 29%;
     -webkit-animation-duration: 4s; 
     animation-duration: 4s; 
     -webkit-animation-fill-mode: both; 
@@ -204,10 +204,11 @@ header {
 }
 
 @media only screen and (min-width: 40em) { 
+	
 	.robot { 
 		width: 210px; 
 		height: auto;
-		margin-left: 15%;
+		margin-left: 10%;
 	}
 	
 	@-webkit-keyframes bounceInDown { 
