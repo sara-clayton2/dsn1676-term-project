@@ -104,5 +104,5 @@ body {
 
 .card .back {
   transform: rotateY(180deg);
-	background: #ee3536;
+background: #ee3536;
 }
