@@ -119,6 +119,7 @@ body {
 .hello {
     border: 3px solid #fff;
     -webkit-border-radius: 30px;
+	border-radius: 30px;
     height: 40px;
     width: 40px;
     position: absolute;
