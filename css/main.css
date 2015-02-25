@@ -5,24 +5,24 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
- font-family: 'Roboto', sans-serif;
+	*, *:before, *:after {
+	box-sizing: inherit;
+	font-family: 'Roboto', sans-serif;
 }
 
 body { 
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 .img-flex {
-  display: block;
-  width: 100%;
+	display: block;
+	width: 100%;
 }
 
 @media only screen and (min-width: 60em) { 
@@ -46,20 +46,20 @@ body {
 }
 
 .skip-links {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 
 .skip-links a {
-  padding: 0.5em 0.75em;
-  position: absolute;
-  top: -3em;
-  background-color: #000;
-  color: #fff;
-  font-size: 1.125em;
-  font-weight: bold;
-  text-decoration: none;
+	padding: 0.5em 0.75em;
+	position: absolute;
+	top: -3em;
+	background-color: #000;
+	color: #fff;
+	font-size: 1.125em;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 .skip-links a:focus {
@@ -76,45 +76,45 @@ body {
 }
 
 .card-container {
-  height: 150px;
-  perspective: 600;
-  position: relative;
+	height: 150px;
+	perspective: 600;
+	position: relative;
 }
 
 .card {
-  height: 100%;
-  position: absolute;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-  width: 100%;	
-  border-style: solid;
-  border-width: 2px;
-  border-color: #fff;
+	height: 100%;
+	position: absolute;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	width: 100%;	
+	border-style: solid;
+	border-width: 2px;
+	border-color: #fff;
 }
 
 .card:hover {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 .card .side {
-  -webkit-backface-visibility: hidden;	
-  backface-visibility: hidden;
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  color: #fff;
-  text-align: center;
-  background-color: #20232D;
+	-webkit-backface-visibility: hidden;	
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	background-color: #20232D;
 }
 
 .card .back {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-  background: #ee3536;
-  padding: 3em;
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	background: #ee3536;
+	padding: 3em;
 }
 
 .hello {
@@ -124,25 +124,45 @@ body {
     height: 40px;
     width: 40px;
     position: absolute;
-    left:10px;
-    top:4px;
-    -webkit-animation: pulsate 1s ease-out;
-    -webkit-animation-iteration-count: infinite; 
-	animation: pulsate 1s ease-out;
-    animation-iteration-count: infinite; 
-    opacity: 0.0
+    right:48%;
+	left:auto;
+    top:34px;
+    -webkit-animation: pulsate 2s ease;
+    -webkit-animation-iteration-count: 3; 
+	animation: pulsate 2s ease;
+    animation-iteration-count: 3; 
+    opacity: 0.1; 
+	animation-fill-mode: forwards;  
+	 -webkit-animation-fill-mode: forwards;
 }
 
+
 @-webkit-keyframes pulsate {
-    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-    50% {opacity: 1.0;}
-    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+    0% {
+	-webkit-transform: scale(0.1, 0.1); 
+	opacity: 0.1;
+	}
+    50% {
+	opacity: 1.0;
+	}
+    100% {
+	-webkit-transform: scale(1.2, 1.2); 
+	opacity: 0.3;
+	}
 }
 
 @keyframes pulsate {
-    0% {transform: scale(0.1, 0.1); opacity: 0.0;}
-    50% {opacity: 1.0;}
-    100% {transform: scale(1.2, 1.2); opacity: 0.0;}
+    0% {
+	transform: scale(0.1, 0.1); 
+	opacity: 0.1;
+	}
+    50% {
+	opacity: 1.0;
+	}
+    100% {
+	transform: scale(1.2, 1.2); 
+	opacity: 0.3;
+	}
 }
 
 h2 { 
@@ -153,12 +173,12 @@ h2 {
 }
 
 .title { 
-  -webkit-transition-property: background;
-  -webkit-transition-duration: 1s;
-  -webkit-transition-timing-function: linear;
-  transition-property: background;
-  transition-duration: 1s;
-  transition-timing-function: linear;	  
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: linear;
+	transition-property: background;
+	transition-duration: 1s;
+	transition-timing-function: linear;	  
 }
 
 .title:hover {
@@ -170,29 +190,23 @@ h2 {
 }
 
 @-webkit-keyframes title {
-    15%
-    {
-        -webkit-transform: translateX(5px);
+    15% {
+    -webkit-transform: translateX(5px);
     }
-    30%
-    {
-        -webkit-transform: translateX(-5px);
+    30% {
+    -webkit-transform: translateX(-5px);
     } 
-    50%
-    {
-        -webkit-transform: translateX(3px);
+    50% {
+    -webkit-transform: translateX(3px);
     }
-    65%
-    {
-        -webkit-transform: translateX(-3px);
+    65% {
+    -webkit-transform: translateX(-3px);
     }
-    80%
-    {
-        -webkit-transform: translateX(2px);
+    80% {
+    -webkit-transform: translateX(2px);
     }
-    100%
-    {
-        -webkit-transform: translateX(0);
+    100% {
+    -webkit-transform: translateX(0);
     }
 }
 
