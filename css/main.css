@@ -113,7 +113,7 @@ body {
 .card .back {
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
-	background: #F9465E;
+	background: #2CADBE;
 	padding: 3em;
 }
 
