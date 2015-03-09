@@ -236,3 +236,37 @@ h2 {
         transform: translateX(0);
     }
 }
+
+.top-menu { 
+	background-color: white;
+}
+
+.btn-menu { 
+	padding: .25rem;
+	width: 4em;
+}
+
+nav a { 
+	text-decoration: none;
+	color: #ee3536;
+}
+
+nav a:hover { 
+	background-color: #20232D;
+} 
+
+nav ul { 
+	list-style: none;
+}
+
+.panel { 
+	max-height: 0; 
+	overflow: hidden;
+	list-style-type: none;
+}
+
+.js-panel-open { 
+	display: block;
+	max-height: 250px; 
+	transition: all 500ms ease-in-out;
+}
