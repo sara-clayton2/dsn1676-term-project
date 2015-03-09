@@ -70,7 +70,7 @@ body {
 	width: 100%;
 	height: 25em;
 	color: #fff;
-	background: #ee3536;
+	background-color: #2EC0D3;
 	text-align: center;
 	padding: 7em;
 }
@@ -107,13 +107,13 @@ body {
 	width: 100%;
 	color: #fff;
 	text-align: center;
-	background-color: #20232D;
+	background-color: #CAE98D;
 }
 
 .card .back {
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
-	background: #ee3536;
+	background: #F9465E;
 	padding: 3em;
 }
 
@@ -121,12 +121,13 @@ body {
     border: 3px solid #fff;
     -webkit-border-radius: 30px;
 	border-radius: 30px;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     position: absolute;
+	font-size: .5em;
+	text-align: center;
     right:48%;
 	left:auto;
-    top:60px;
     -webkit-animation: pulsate 2s ease;
     -webkit-animation-iteration-count: 3; 
 	animation: pulsate 2s ease;
@@ -248,11 +249,11 @@ h2 {
 
 nav a { 
 	text-decoration: none;
-	color: #ee3536;
+	color: #CAE98D;
 }
 
 nav a:hover { 
-	background-color: #20232D;
+	background-color: #2EC0D3;
 } 
 
 nav ul { 
