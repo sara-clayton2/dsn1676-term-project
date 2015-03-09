@@ -126,7 +126,7 @@ body {
     position: absolute;
     right:48%;
 	left:auto;
-    top:34px;
+    top:60px;
     -webkit-animation: pulsate 2s ease;
     -webkit-animation-iteration-count: 3; 
 	animation: pulsate 2s ease;
