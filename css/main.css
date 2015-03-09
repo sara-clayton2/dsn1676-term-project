@@ -25,6 +25,16 @@ body {
 	width: 100%;
 }
 
+@media only screen and (min-width: 40em) { 
+	li { 
+	display: inline-block;
+	padding-right: 4em;	
+	text-align: center;
+	padding-top: .25em;
+}
+} 
+
+
 @media only screen and (min-width: 60em) { 
 	html { 
 		font-size: 110%; 
@@ -121,13 +131,15 @@ body {
     border: 3px solid #fff;
     -webkit-border-radius: 30px;
 	border-radius: 30px;
-    height: 35px;
+    height: 25px;
     width: 35px;
     position: absolute;
 	font-size: .5em;
-	text-align: center;
+	padding: .5em;
     right:48%;
 	left:auto;
+	color: #eee;
+	background-color: #2EC0D3;
     -webkit-animation: pulsate 2s ease;
     -webkit-animation-iteration-count: 3; 
 	animation: pulsate 2s ease;
@@ -137,6 +149,21 @@ body {
 	 -webkit-animation-fill-mode: forwards;
 }
 
+
+.pop {
+  width: 90px;
+  transform: translateY(-140%);
+  display: inline-block;
+  max-height: 0;
+  overflow: hidden;  
+  -webkit-transition: all 250ms ease-out;  
+  transition: all 250ms ease-out; 
+  
+}
+
+.js-panel-down {	
+  max-height: 3.5em;
+}
 
 @-webkit-keyframes pulsate {
     0% {
@@ -174,6 +201,7 @@ h2 {
 }
 
 .title { 
+	text-align: center;
 	-webkit-transition-property: background;
 	-webkit-transition-duration: 1s;
 	-webkit-transition-timing-function: linear;
@@ -253,7 +281,8 @@ nav a {
 }
 
 nav a:hover { 
-	background-color: #2EC0D3;
+	background-color:rgba(46, 192, 211, 0.6);
+	padding: .5em;
 } 
 
 nav ul { 
@@ -271,3 +300,22 @@ nav ul {
 	max-height: 250px; 
 	transition: all 500ms ease-in-out;
 }
+
+li { 
+	padding-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
