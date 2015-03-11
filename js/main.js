@@ -25,7 +25,8 @@ $thumbs.on('click', 'a', function(e) {
 	
 	var big = $(this).attr('href');
 	$lbImg.attr('src', big);
-	$lb.attr('data-state', 'visible');	
+	$lb.attr('data-state', 'visible');
+	console.log('.lightbox');
 });
 
 $btnClose.on('click', function () {
