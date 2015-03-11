@@ -29,3 +29,4 @@ var $box2 = $('.box2');
 $btnShowhide2.on('click', function () { 
 $box2.toggleClass('js-box-hide2');
 }); 
+

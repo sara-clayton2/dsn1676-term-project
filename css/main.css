@@ -313,7 +313,7 @@ li {
   height: 40%;
   top: calc(50% - 50px);
   width: 40%;
-  margin: 1em 1em 1em 3em;
+  margin: 1em 1em 1em 7.5em;
   overflow: hidden;
   -webkit-transition: opacity 1.5s ease-in-out; 
   transition: opacity 1.5s ease-in-out; 
@@ -326,20 +326,20 @@ li {
 
 .logos { 
 	height: 60px; 
-	width: 80px; 
+	width: 100px; 
 	text-align: center;
-	margin-left: 40%;
-	color: #CAE98D; 
+	margin-left: 38%;
+	color: white; 
 	background-color:#2EC0D3;
 	border: none;
 	font-size: 1.5em;
 }
 
 .box2 {
-  height: 100px;
+  height: 40%;
   top: calc(50% - 50px);
-  width: 200px;
-  margin: 1em 1em 1em 3em;
+  width: 40%;
+  margin: 1em 2em 1em 8em;
   overflow: hidden;
   -webkit-transition: opacity 1.5s ease-in-out; 
   transition: opacity 1.5s ease-in-out; 
