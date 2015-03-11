@@ -1,10 +1,6 @@
 var $btnMenu = $('.btn-menu'); 
 var $panel = $('.panel'); 
 var $btn = $('.btn'); 
-var $thumbs = $('.thumbnails'); 
-var $lbImg = $('.lightbox-img');
-var $lb = $('.lightbox');
-var $btnClose = $('.btn-close');
 var $btnPanel = $('.btn-panel-down'); 
 var $pop = $('.pop');
 
@@ -17,6 +13,13 @@ $btnPanel.on('click', function () {
 $pop.toggleClass('js-panel-down');
 }); 
 
+
+var $thumbs = $('.thumbnails'); 
+var $lbImg = $('.lightbox-img');
+var $lb = $('.lightbox');
+var $btnClose = $('.btn-close');
+
+
 $thumbs.on('click', 'a', function(e) { 
 	e.preventDefault();
 	
@@ -26,5 +29,5 @@ $thumbs.on('click', 'a', function(e) {
 });
 
 $btnClose.on('click', function () {
-	$lb.attr('date-state', 'visible');			
+	$lb.attr('data-state', 'hidden');			
 });

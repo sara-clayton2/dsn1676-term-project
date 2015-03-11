@@ -309,8 +309,6 @@ li {
 	color: #2EC0D3;
 }
 
-
-
 .thumbnails { 
 	margin: 0; 
 	padding: 0;
@@ -329,45 +327,36 @@ li {
 	left: 0; 
 	right: 0; 
 	top: 0; 
-	bottom: 0; 
+	bottom:0;
 	background-color: rgba(0,0,0,0.5);
 	display: none;
 }
 
-.lightbox-container {
+.lightbox[data-state="visible"] { 
+	display: block;
+}
+
+.lightbox-container { 
 	position: absolute;
-	left: 15px;
-	right: 15px; 
-	bottom: 15px; 
-	top:15px;
-	background-color: #fff;
+	left: 5px; 
+	right: 5px;
+	bottom: 5px;
+	top: 5px;
+	background-color: white;
 	border-radius: 6px;
 	box-shadow: 1px 1px 4px #000;
 	padding: 1em;
 }
 
-.lightbox[data-state ="visible"] { 
-	display: block;	
-}
-
 .lightbox-img { 
-	display: block;
+	display: block; 
 	width: 100%;
 }
 
 .lightbox-content { 
+	transform: translate(-50% ,-50%); 
 	position: absolute;
 	top:50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: calc(100% - 2em);	
+	width: calc(100% - 2em);
+	left: 50%; 
 }
-
-
-
-
-
-
-
-
-
