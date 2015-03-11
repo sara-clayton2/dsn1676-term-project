@@ -338,10 +338,10 @@ li {
 
 .lightbox-container { 
 	position: absolute;
-	left: 5px; 
-	right: 5px;
-	bottom: 5px;
-	top: 5px;
+	left: 15px; 
+	right: 15px;
+	bottom: 15px;
+	top: 15px;
 	background-color: white;
 	border-radius: 6px;
 	box-shadow: 1px 1px 4px #000;
@@ -359,4 +359,6 @@ li {
 	top:50%;
 	width: calc(100% - 2em);
 	left: 50%; 
+	max-width: 500px; 
 }
+
