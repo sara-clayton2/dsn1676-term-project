@@ -363,3 +363,13 @@ li {
 	max-width: 500px; 
 }
 
+.btn-close { 
+	height: 3em;
+	width: 3em; 
+	border-radius: 20px; 
+	border: none;
+	background-color: #2EC0D3; 
+	color: white;
+	
+
+}
