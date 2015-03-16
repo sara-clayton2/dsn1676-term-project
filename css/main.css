@@ -151,6 +151,7 @@ body {
 
 .pop {
   width: 90px;
+  -webkit- transform: translateY(-130%);
   transform: translateY(-130%);
   display: inline-block;
   max-height: 0;
