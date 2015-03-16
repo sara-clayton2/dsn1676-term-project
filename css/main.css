@@ -292,13 +292,13 @@ nav ul {
 	max-height: 0; 
 	overflow: hidden;
 	list-style-type: none;
+	-webkit-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
 }
 
 .js-panel-open { 
 	display: block;
 	max-height: 250px; 
-	-webkit-transition: all 500ms ease-in-out;
-	transition: all 500ms ease-in-out;
 }
 
 li { 
