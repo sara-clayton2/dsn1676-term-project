@@ -131,6 +131,8 @@ body {
     border: 3px solid #fff;
     -webkit-border-radius: 30px;
 	border-radius: 30px;
+	-webkit-height: 25px;
+    -webkit-width: 35px;
     height: 25px;
     width: 35px;
     position: absolute;
@@ -152,14 +154,13 @@ body {
 
 .pop {
   width: 90px;
-  -webkit- transform: translateY(-130%);
+  -webkit-transform: translateY(-130%);
   transform: translateY(-130%);
   display: inline-block;
   max-height: 0;
   overflow: hidden;  
   -webkit-transition: all 250ms ease-out;  
   transition: all 250ms ease-out; 
-  
 }
 
 .js-panel-down {	
