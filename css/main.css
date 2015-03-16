@@ -131,15 +131,14 @@ body {
     border: 3px solid #fff;
     -webkit-border-radius: 30px;
 	border-radius: 30px;
-	-webkit-height: 25px;
-    -webkit-width: 35px;
     height: 25px;
     width: 35px;
     position: absolute;
 	font-size: .5em;
 	padding: .5em;
-    right:48%;
+    right:50%;
 	left:auto;
+	top: 25%;
 	color: #eee;
 	background-color: #2EC0D3;
     -webkit-animation: pulsate 2s ease;
