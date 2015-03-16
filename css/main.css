@@ -297,6 +297,7 @@ nav ul {
 .js-panel-open { 
 	display: block;
 	max-height: 250px; 
+	-webkit-transition: all 500ms ease-in-out;
 	transition: all 500ms ease-in-out;
 }
 
@@ -330,6 +331,7 @@ li {
 	top: 0; 
 	bottom:0;
 	background-color: rgba(0,0,0,0.5);
+	-webkit-transition:  all 1s linear;
 	transition:  all 1s linear;
 }
 
@@ -357,6 +359,7 @@ li {
 }
 
 .lightbox-content { 
+	-webkit-transform: translate(-50% ,-50%); 
 	transform: translate(-50% ,-50%); 
 	position: absolute;
 	top:50%;
