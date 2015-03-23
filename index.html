@@ -13,10 +13,10 @@
 		<nav id="navigation" role="navigation"> 
 			<img src="images/nav.svg" class="btn-menu">
 			<div class="panel"> 
-				<ul>
-					<li><a href="#contact">CONTACT</a></li>
-					<li><a href="#work">WORK</a></li>
+				<ul class="tabs">
+					<li><a href="#tab-1">WORK</a></li>
 					<li><a href="#about">ABOUT</a></li>
+					<li><a href="">CONTACT</a></li>
 				</ul>	
 			</div>	
 		</nav>
@@ -34,6 +34,8 @@
 
 		 	<h1 class="title">CREATIVITY</h1>
 		    <p>It is the result of hard work. Where dedicated people, such as myself, strive to transcend traditional ideas, rules and patterns. </p>
+			<p class="downtext">Scroll down to check out some of my work! </p>
+			<img class="down" src="images/down.svg">
 		</div>	
 	</div>
 
@@ -66,10 +68,10 @@
 		</div>	
 	</div>	
 		
-	<main id="work" role="work" class="background">
+	<main class="background">
 		<h1 class="work">WORK</h1>   
 		
-		<ul class="thumbnails grid">
+		<ul class="thumbnails grid" id="tab-1">
 			<li class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
 				<a href="images/hobbit.jpg"> 
 					<img src="images/hobbit.jpg" alt="" class="icon"> 
@@ -98,10 +100,11 @@
 
 	</main>
 	
-	<footer id="contact" role="contact"></footer>
-	
+	<footer id="contact" role="contact"><a class="top" href="#top">^ Back to the top</a></footer>
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.14/jquery.scrollTo.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.3.5/jquery.localScroll.min.js"></script>
 	<script src="js/main.js"></script>	
 		
 </html>
