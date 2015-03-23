@@ -34,5 +34,5 @@ $btnClose.on('click', function () {
 });
 
 $('.nav').localScroll();
-
+$('.sec').localScroll();
 $('.bottom').localScroll();
