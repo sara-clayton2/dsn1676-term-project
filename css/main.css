@@ -413,7 +413,16 @@ footer {
  margin-top: 3em;
 }
 
-.top { 
+.end { 
 	color: white;
 	text-decoration: none;
+	text-align: left;
+	font-size: .75em;
+}
+
+.down2 { 
+	padding-right: .5em;
+	width: 2em; 
+	height: auto;
+	transform: rotate(180deg);
 }
