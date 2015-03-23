@@ -3,7 +3,6 @@ var $panel = $('.panel');
 var $btn = $('.btn'); 
 var $btnPanel = $('.btn-panel-down'); 
 var $pop = $('.pop');
-var $tabs = $(".tabs");
 
 $btnMenu.on('click', function() { 
 	console.log('js-panel-open');
@@ -34,4 +33,4 @@ $btnClose.on('click', function () {
 	$lb.attr('data-state', 'hidden');			
 });
 
-$('.nav').localScroll(); 
+$('.nav').localScroll();
