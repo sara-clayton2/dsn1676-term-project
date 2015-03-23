@@ -425,3 +425,8 @@ footer {
 	height:auto;
 	margin-left: .5em;
 }
+
+.end { 
+	text-decoration: none;
+	color: white;
+}
