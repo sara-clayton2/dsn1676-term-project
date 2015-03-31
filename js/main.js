@@ -33,3 +33,6 @@ $btnClose.on('click', function () {
 	$lb.attr('data-state', 'hidden');			
 });
 
+$('.nav').localScroll();
+$('.sec').localScroll();
+$('.bottom').localScroll();
