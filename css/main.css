@@ -80,6 +80,17 @@ body {
   top: 0;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.btt { 
+	text-decoration: none;
+	color: white;
+	text-align: left;
+}
+
 .boxed { 
 	width: 100%;
 	height: 30em;
@@ -164,6 +175,7 @@ body {
   -webkit-transition: all 250ms ease-out;  
   transition: all 250ms ease-out; 
 }
+
 
 .js-panel-down {	
   max-height: 3.5em;
@@ -394,7 +406,7 @@ li {
 	text-align:justify; 
 	color:#000000; font-size:20px; 
 	font-weight:700;
-	padding:30px;
+	padding:3px;
 }
 
 .foot { 
@@ -431,12 +443,6 @@ footer {
 	margin-left: .5em;
 }
 
-.end { 
-	text-decoration: none;
-	color: white;
-	text-align: left;
-}
-
 #IN { 
 	-webkit-animation: bob 1s ease alternate infinite;
 	animation: bob-head 1s ease alternate infinite;
@@ -466,3 +472,4 @@ footer {
 		transform: translateY(20px);
 	}
 }
+
