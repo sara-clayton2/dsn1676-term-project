@@ -397,7 +397,6 @@ li {
 	padding:30px;
 }
 
-<<<<<<< HEAD
 .foot { 
 	background-color: #2EC0D3;
 	padding: 3em;
@@ -432,9 +431,9 @@ li {
 	100% { 
 		transform: translateY(20px);
 	}
-=======
+
 .down { 
-	width: 3em; 
+	width: .5em; 
 	height:auto;
 }
 
@@ -465,5 +464,4 @@ footer {
 .end { 
 	text-decoration: none;
 	color: white;
->>>>>>> origin/gh-pages
 }
