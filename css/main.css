@@ -480,17 +480,17 @@ footer {
 	color: #fff;
 }
 
-.st0{
+.st0 {
 	fill:#CAE98D;
 } 
 
-.st1{
+.st1 {
 	fill:#FFFFFF;
 }
 
 
 #IN { 
--webkit-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
 	transition: all 1s linear;
 }
 
@@ -499,7 +499,7 @@ footer {
 }
 
 #bird { 
--webkit-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
 	transition: all 1s linear;
 }
 
@@ -512,15 +512,15 @@ footer {
 	transition: all 1s linear;
 }
 
-.js-active #circle2{ 
+.js-active #circle2 { 
 	fill: #fff;
 }
 
 #circle1 { 
--webkit-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
 	transition: all 1s linear;
 }
 
-.js-active #circle1{ 
+.js-active #circle1 { 
 	fill: #fff;
 }

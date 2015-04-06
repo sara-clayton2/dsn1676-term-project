@@ -44,8 +44,6 @@ $linkden.waypoint(function () {
 	$linkden.toggleClass('js-active');	
 }, { offset: '60%' } );
 
-
-
 var $twitter = $('.twitter');
 
 $twitter.waypoint(function () { 
