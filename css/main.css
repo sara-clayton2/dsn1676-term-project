@@ -533,11 +533,12 @@ footer {
 	fill: #2EC0D3;
 }
 
-#face { 
+#head { 
 -webkit-transition: all 1s linear;
 	transition: all 1s linear;
+	align-content: center;
 }
 
-.js-active #face { 
-	fill: #2EC0D3;
+.js-active #head { 
+	fill: #CAE98D;
 }
