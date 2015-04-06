@@ -36,3 +36,26 @@ $btnClose.on('click', function () {
 $('.nav').localScroll();
 $('.sec').localScroll();
 $('.bottom').localScroll();
+
+
+var $smile = $('.smile');
+
+$smile.waypoint(function () { 
+	$smile.addClass('js-active');		   		   
+}, { offset: '60%' } );
+
+
+var $linkden = $('.linkden');
+
+$linkden.waypoint(function () { 
+	$linkden.addClass('js-active');		   		   
+}, { offset: '60%' } );
+
+
+var $twitter = $('.twitter');
+
+$twitter.waypoint(function () { 
+	$twitter.addClass('js-active');		   		   
+}, { offset: '60%' } );
+
+
