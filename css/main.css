@@ -508,27 +508,36 @@ footer {
 }
 
 #tounge { 
-opacity: 0;
+	opacity: 0;
 }
 
 .js-active #tounge { 
 	opacity:1;
 }
 
-#linkden { 
+#IN { 
 -webkit-transition: all 1s linear;
 	transition: all 1s linear;
 }
 
-.js-active #linkden { 
-	fill: #fff;
+.js-active #IN { 
+	fill: #2EC0D3;
 }
 
-#twitter { 
+#bird { 
 -webkit-transition: all 1s linear;
 	transition: all 1s linear;
 }
 
-.js-active #twitter { 
-	fill: #fff;
+.js-active #bird { 
+	fill: #2EC0D3;
+}
+
+#face { 
+-webkit-transition: all 1s linear;
+	transition: all 1s linear;
+}
+
+.js-active #face { 
+	fill: #2EC0D3;
 }
