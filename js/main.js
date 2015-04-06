@@ -37,7 +37,6 @@ $('.nav').localScroll();
 $('.sec').localScroll();
 $('.bottom').localScroll();
 
-
 var $linkden = $('.linkden');
 
 $linkden.waypoint(function () { 
